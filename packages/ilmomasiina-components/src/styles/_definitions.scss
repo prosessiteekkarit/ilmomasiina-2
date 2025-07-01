@@ -6,20 +6,20 @@
 // For Bootstrap components, the overrides are made in ilmomasiina-frontend/src/styles/app.scss.
 // If you want to override more colors, you'll also need to add them to the @use there.
 
-$primary: #0a0d10 !default;
-$secondary: #0a0d10 !default;
+$primary: #00965E !default;
+$secondary: #00965E !default;
 $red: #d74949 !default; // further assigned to $danger by Bootstrap
 $green: #319236 !default; // further assigned to $success by Bootstrap
 $text-muted: #888 !default;
 
 // Links are impossible to see with Tietokilta's black $primary.
 // You can disable this if you use something light.
-$force-link-underline: true !default;
+$force-link-underline: false !default;
 
 // Default button hover color logic doesn't work with Tietokilta's black $primary.
 // You can disable this if you use something light.
-$lighter-primary-hover: true !default;
-$lighter-secondary-hover: true !default;
+$lighter-primary-hover: false !default;
+$lighter-secondary-hover: false !default;
 
 // Additional colors, only used by Ilmomasiina's SCSS.
 
